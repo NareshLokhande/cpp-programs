@@ -3,6 +3,8 @@
     "files.associations": {
         "*.js": "javascriptreact",
         "iostream": "cpp",
-        "ostream": "cpp"
-    }
+        "ostream": "cpp",
+        "random": "cpp"
+    },
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }
