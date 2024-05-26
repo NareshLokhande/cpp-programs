@@ -1,0 +1,1 @@
+int Num1 = 90;      //Non-static Global variable

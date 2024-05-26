@@ -1,8 +1,5 @@
-15:07:25 **** Rebuild of configuration Debug for project Namespace ****
+Info: Nothing to build for Day 6
+13:12:07 **** Incremental Build of configuration Debug for project Day 6 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
-g++ -o Namespace.exe "src\\main.o" 
-15:07:43 **** Incremental Build of configuration Debug for project Namespace ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
-g++ -o Namespace.exe "src\\main.o" 
+g++ -o "Day 6.exe" "src\\main.o" 
