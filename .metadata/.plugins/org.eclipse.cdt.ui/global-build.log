@@ -1,8 +1,90 @@
-12:38:10 **** Incremental Build of configuration Debug for project Day 7.2 ****
+13:00:35 **** Incremental Build of configuration Debug for project Day 9 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
-g++ -o "Day 7.2.exe" "src\\main.o" 
-12:38:17 **** Incremental Build of configuration Debug for project Day 7.2 ****
+..\src\main.cpp: In function 'int main1()':
+..\src\main.cpp:65:7: warning: unused variable 'ptr1' [-Wunused-variable]
+  int *ptr1 = new int;  //1 Var
+       ^~~~
+..\src\main.cpp:66:7: warning: unused variable 'ptr2' [-Wunused-variable]
+  int *ptr2 = new int[9];  //9 Var
+       ^~~~
+..\src\main.cpp:67:7: warning: unused variable 'ptr3' [-Wunused-variable]
+  int *ptr3 = new int[123]; //1 Var-123
+       ^~~~
+..\src\main.cpp:71:11: warning: unused variable 'ptr' [-Wunused-variable]
+  Student *ptr = new Student[190]; //Dynamic Array of object of class student
+           ^~~
+..\src\main.cpp:73:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o "Day 9.exe" "src\\main.o" 
+Info: Nothing to build for Day 9
+13:00:59 **** Incremental Build of configuration Debug for project Day 9 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
-g++ -o "Day 7.2.exe" "src\\main.o" 
+..\src\main.cpp: In function 'int main1()':
+..\src\main.cpp:65:7: warning: unused variable 'ptr1' [-Wunused-variable]
+  int *ptr1 = new int;  //1 Var
+       ^~~~
+..\src\main.cpp:66:7: warning: unused variable 'ptr2' [-Wunused-variable]
+  int *ptr2 = new int[9];  //9 Var
+       ^~~~
+..\src\main.cpp:67:7: warning: unused variable 'ptr3' [-Wunused-variable]
+  int *ptr3 = new int[123]; //1 Var-123
+       ^~~~
+..\src\main.cpp:71:11: warning: unused variable 'ptr' [-Wunused-variable]
+  Student *ptr = new Student[190]; //Dynamic Array of object of class student
+           ^~~
+..\src\main.cpp:73:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o "Day 9.exe" "src\\main.o" 
+Info: Nothing to build for Day 9
+13:01:38 **** Incremental Build of configuration Debug for project Day 9 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int main1()':
+..\src\main.cpp:66:7: warning: unused variable 'ptr1' [-Wunused-variable]
+  int *ptr1 = new int;  //1 Var
+       ^~~~
+..\src\main.cpp:67:7: warning: unused variable 'ptr2' [-Wunused-variable]
+  int *ptr2 = new int[9];  //9 Var
+       ^~~~
+..\src\main.cpp:68:7: warning: unused variable 'ptr3' [-Wunused-variable]
+  int *ptr3 = new int[123]; //1 Var-123
+       ^~~~
+..\src\main.cpp:72:11: warning: unused variable 'ptr' [-Wunused-variable]
+  Student *ptr = new Student[190]; //Dynamic Array of object of class student
+           ^~~
+..\src\main.cpp:74:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o "Day 9.exe" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Day 9.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:06:09 **** Incremental Build of configuration Debug for project Day 9 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In member function 'void Admin::DeleteStudent()':
+..\src\main.cpp:64:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0;i<slist.size();i++)
+               ~^~~~~~~~~~~~~
+..\src\main.cpp: In function 'int main1()':
+..\src\main.cpp:86:7: warning: unused variable 'ptr1' [-Wunused-variable]
+  int *ptr1 = new int;  //1 Var
+       ^~~~
+..\src\main.cpp:87:7: warning: unused variable 'ptr2' [-Wunused-variable]
+  int *ptr2 = new int[9];  //9 Var
+       ^~~~
+..\src\main.cpp:88:7: warning: unused variable 'ptr3' [-Wunused-variable]
+  int *ptr3 = new int[123]; //1 Var-123
+       ^~~~
+..\src\main.cpp:92:11: warning: unused variable 'ptr' [-Wunused-variable]
+  Student *ptr = new Student[190]; //Dynamic Array of object of class student
+           ^~~
+..\src\main.cpp:94:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o "Day 9.exe" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Day 9.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
